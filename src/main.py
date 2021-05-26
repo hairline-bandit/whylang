@@ -11,7 +11,6 @@ with open(to_open, "r") as f:
     content = [i.rstrip("\n") for i in f.readlines()]
 
 helper = {"F": "if", "E": "else", "I": "elif", "q": "==", "M": ">", "L": "<", "m": ">=", "l": "<=", "n": "in", "o": "not", "a": "=", "p": "(", "P": ")", "b": "[", "B": "]", "d": "and", "r": "or", "u": "+", "i": "-", "v": "/", "k": "*", "K": "%", "w": "int", "W": "str", "O": "float", "h": "list", "H": "set", "t": "True", "f": "False", "N": "None", "c": ",", "z": " ", "s": "+=", "x": "-=", "U": "\"", "T": "print", "D": "def", "g": "input", "y": "for", "Y": "range", "j": "len", "J": ":"}
-allowed_num = set("1234567890.")
 
 file = open("randomnameforthis.py", "w+")
 
