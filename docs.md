@@ -76,6 +76,14 @@ D = def
 
 g = input
 
+y = for
+
+Y = range
+
+j = len
+
+J = :
+
 V = ignore all above encodings (write as is until the next V)
 
 1234567890. = What they are (nothing changes for these)
