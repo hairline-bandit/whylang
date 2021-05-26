@@ -27,7 +27,7 @@ for line in content:
         elif line[char] in "1234567890.":
             file.write(line[char])
         else:
-            if line[char] == "F" or line[char] == "E" or line[char] == "I" or line[char] == "D":
+            if line[char] == "F" or line[char] == "E" or line[char] == "I" or line[char] == "D" or line[char] == "y:
                 is_cond = True
             file.write(helper[line[char]])
         char += 1
