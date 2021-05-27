@@ -97,3 +97,7 @@ Here's a trick:
 If you want to write to the file with regular Python, say you want to use a Python built in or import, surround it with V
 
 i.e. Vimport randomV
+
+or
+
+Vlst.append("something")V
