@@ -88,6 +88,10 @@ V = ignore all above encodings (write as is until the next V)
 
 v = V (so that you can still use a capital V) must be outside of V i.e. vVariables are very usefulV (means "Variables are very useful")
 
+G = return
+
+e = break
+
 1234567890. = What they are (nothing changes for these)
 
 **Note that anything that would need a colon after it in Python (def, if, else, elif, for) does not need one here**
