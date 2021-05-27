@@ -38,7 +38,7 @@ u = +
 
 i = -
 
-v = /
+X = /
 
 k = *
 
@@ -85,6 +85,8 @@ j = len
 J = :
 
 V = ignore all above encodings (write as is until the next V)
+
+v = V (so that you can still use a capital V) must be outside of V i.e. vVariables are very usefulV (means "Variables are very useful")
 
 1234567890. = What they are (nothing changes for these)
 
